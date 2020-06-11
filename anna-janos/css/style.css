@@ -77,6 +77,11 @@ html, body, header {
   font-family: 'Kaushan Script', handwriting;
 }
 
+.navbar-brand img {
+  max-width: 40px;
+  margin-right: 20px;
+}
+
 .overlay {
   position: relative;
   z-index: 1;
