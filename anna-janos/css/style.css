@@ -82,6 +82,16 @@ html, body, header {
   margin-right: 20px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  background-color: #973353;
+  border-radius: 0.5rem;
+}
+
 .overlay {
   position: relative;
   z-index: 1;
@@ -449,3 +459,18 @@ line-height: 1.6rem;
   position:absolute;
 }
 
+.gallery-box {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gallery-box img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-box img:hover{
+  cursor: pointer;
+}
